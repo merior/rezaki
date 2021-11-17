@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    font-style: normal;
+    font-size: 14px;
+}
+body{
+    background: #f9f9f9;
+}
+.title{
+    margin-top: 100px;
+    margin-bottom: 125px;
+    font: arial;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+.things{
+    position: absolute;
+    left: 50%;
+    margin-left: -570px;
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+}
+.first__thing{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name__thing{
+    font: arial;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #000000;
+}
+.price{
+    font: arial;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+}
+
+button{
+    font: arial;
+    margin-bottom: 101px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #23bac1;
+}
+
+.butt{
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #23bac1;
+}
+
+
+
+.img{
+    width: 264px;
+    height: 211px;
+    margin-bottom: 25px;
+}
